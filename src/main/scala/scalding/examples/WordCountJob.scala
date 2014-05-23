@@ -21,7 +21,7 @@ object WordCountJob extends App {
   val progargs: Array[String] = List(
     "-Dmapred.map.tasks=200","scalding.examples.WordCountJob",
     "--input", "/home/yooo/Documents/Indix/scalding/sampleurls",
-    "--output", "/home/yooo/Documents/Indix/Scalding/output",
+    "--output", "/home/yooo/Documents/Indix/Scalding/scalding_examples/output/",
     "--hdfs"
   ).toArray
   Tool.main(progargs)
